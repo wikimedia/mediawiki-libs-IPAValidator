@@ -8,7 +8,7 @@
  * @license   https://opensource.org/licenses/GPL-3.0 GPL-2.0-or-later
  */
 declare( strict_types=1 );
-namespace TheresNoTime\IPAValidator;
+namespace Wikimedia\IPAValidator;
 
 use Exception;
 

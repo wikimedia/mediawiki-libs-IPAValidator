@@ -1,19 +1,12 @@
 # Composer package for validating and normalizing IPA
-[![PHP](https://github.com/theresnotime/php-ipa-validator/actions/workflows/PHP.yml/badge.svg)](https://github.com/theresnotime/php-ipa-validator/actions/workflows/PHP.yml)
 
-
-## Installing
-Go grab it on [packagist](https://packagist.org/packages/theresnotime/ipa-validator) via
-```
-composer require theresnotime/ipa-validator
-```
 ## Basic usage
 ```php
 // Load composer's autoloader
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Load the validator
-use TheresNoTime\IPAValidator\Validator;
+use Wikimedia\IPAValidator\Validator;
 
 /*
 * Create a new validator with the options:
@@ -75,11 +68,6 @@ $charmap = [
 ```
 Setting `$google` to `true` also removes all diacritics from the IPA string.
 
-## Developing
- 1. [Fork n' clone](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) this repo
- 2. Run `composer install`
- 3. Run `composer test` because who knows, maybe its already broken
- 4. Hack!
 
 ## The Regex
 ```

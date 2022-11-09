@@ -1,15 +1,12 @@
 {
-	"name": "theresnotime/ipa-validator",
+	"name": "wikimedia/ipa-validator",
 	"description": "Composer package for validating and normalizing IPA",
 	"type": "library",
 	"license": "GPL-2.0-or-later",
 	"minimum-stability": "stable",
-	"support": {
-		"issues": "https://github.com/theresnotime/php-ipa-validator/issues"
-	},
 	"autoload": {
 		"psr-4": {
-			"TheresNoTime\\IPAValidator\\": "src/"
+			"Wikimedia\\IPAValidator\\": "src/"
 		}
 	},
 	"authors": [

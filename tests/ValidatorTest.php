@@ -1,10 +1,10 @@
 <?php
 declare( strict_types=1 );
 use PHPUnit\Framework\TestCase;
-use TheresNoTime\IPAValidator\Validator;
+use Wikimedia\IPAValidator\Validator;
 
 /**
- * @covers TheresNoTime\IPAValidator\Validator
+ * @covers Wikimedia\IPAValidator\Validator
  */
 final class ValidatorTest extends TestCase {
 	public function testCanBeCreatedFromIPA(): void {
