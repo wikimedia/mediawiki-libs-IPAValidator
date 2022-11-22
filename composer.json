@@ -2,7 +2,7 @@
 	"name": "wikimedia/ipa-validator",
 	"description": "Composer package for validating and normalizing IPA",
 	"type": "library",
-	"license": "GPL-2.0-or-later",
+	"license": "GPL-3.0-or-later",
 	"minimum-stability": "stable",
 	"autoload": {
 		"psr-4": {
