@@ -41,7 +41,8 @@
 		],
 		"phan": "phan -d . --long-progress-bar",
 		"phpcs": "phpcs -sp --cache",
-		"phpunit": "phpunit --colors=always"
+		"phpunit": "phpunit --colors=always",
+		"cover": "phpunit --coverage-html coverage"
 	},
 	"config": {
 		"allow-plugins": {

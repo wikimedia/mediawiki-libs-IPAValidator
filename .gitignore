@@ -3,3 +3,5 @@ vendor/
 .phpunit.cache/
 composer.lock
 /.phpunit.result.cache
+/doc
+/coverage
